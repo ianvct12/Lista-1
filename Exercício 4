@@ -1,0 +1,8 @@
+# 4. Cálculo do Salário Mensal
+# Faça um programa que pergunte o número de horas trabalhadas no mês e o valor recebido
+# por hora. O programa deve calcular e exibir o salário total do mês.
+
+horas=int(input("Digite a quantidade de horas trabalhadas no mês: "))
+valor=float(input("Digite o valor recebido por hora: "));
+totalMes=horas*valor;
+print(f"O total recebido por mês é de {totalMes}")
